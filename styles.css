@@ -32,6 +32,7 @@ p {
   margin: 0 10vw;
   display: flex;
   align-items: center;
+  justify-content: space-around;
   gap: 3em;
 }
 
@@ -46,9 +47,11 @@ p {
 }
 
 .card-row {
+  padding: 0 10%;
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  flex-wrap: wrap;
   gap: 50px;
 }
 
@@ -56,6 +59,7 @@ p {
   box-sizing: border-box;
   text-align: center;
   width: 156px;
+  flex: 1;
 }
 
 .img {
@@ -68,6 +72,7 @@ p {
 }
 
 .cta {
+  max-width: 1000px;
   padding: 3em 6em;
   border-radius: 10px/10px;
   background-color: #3882f6;
